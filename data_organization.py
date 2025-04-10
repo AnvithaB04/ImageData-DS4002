@@ -1,6 +1,8 @@
 import os
 import shutil
 
+# download data from https://www.robots.ox.ac.uk/~vgg/data/pets/ and call the folder images
+
 # Directory containing all images
 source_dir = 'images'
 
