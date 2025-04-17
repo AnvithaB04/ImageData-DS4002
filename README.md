@@ -23,7 +23,10 @@ This project was developed using the following software and tools:
 - **Key Packages:**  
   - `tensorflow` (with Keras)  
   - `numpy`  
-  - 
+  - `matplotlib`  
+  - `seaborn`  
+  - `scikit-learn`  
+  - `Pillow`  
 - **Platform Tested On:** macOS, Windows, Linux  
 - **Install dependencies:**  
   ```bash
