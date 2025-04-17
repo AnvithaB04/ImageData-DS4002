@@ -9,8 +9,9 @@ This is a **Pet Breed Classification** project. We train a convolutional neural 
 
 ### Key Features:
 - **Data Organization**: Automatically sorts raw images into breed-specific folders  
-- **Data Augmentation**: Applies rotations, flips, zooms, and brightness adjustments  
-
+- **Data Augmentation**: Applies rotations, flips, zooms, and brightness adjustments
+- **Transfer Learning**:
+- **Evaluation**: 
 
 <!-- Section 1: Software & Platform -->
 ## Section 1: Software & Platform
@@ -27,8 +28,7 @@ This project was developed using the following software and tools:
 - **Install dependencies:**  
   ```bash
   pip install -r requirements.txt
-
-
+  ```
 
 <!-- Section 2: Project Folder Structure -->
 ## Section 2: A Map of your documentation
