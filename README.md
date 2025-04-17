@@ -48,7 +48,7 @@ Follow these steps to reproduce our results:
 2. **Collect & Prepare Data**   
    - Go to the Oxford-IIIT Pet Dataset website: https://www.robots.ox.ac.uk/~vgg/data/pets/  
      Download the “Images” archive (`images.tar.gz`) and extract its contents into the `DATA/InputData/` folder.
-   - In your local IDE or terminal, run the organization script to sort raw images into breed subfolders and extract its contents in the `DATA/AnalysisData/` folder:  
+   - In your local IDE or terminal, run the organization script to sort raw images into breed subfolders and extract its contents into the `DATA/AnalysisData/` folder:  
      ```bash
      python ./SCRIPTS/DataCollectionScripts/data_organization.py
      ```  
