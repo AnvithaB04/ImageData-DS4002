@@ -42,13 +42,11 @@ ImageData-DS4002/
 ## Section 3: Instructions for Reproducing Results
 Follow these steps to reproduce our results:
 
-1. **Set Up the Environment**  
-   Ensure you have Python 3.x installed as well as the requirements.txt file
-   Then run:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2.
+1. **Create the Google Collab**  
+   Under the SCRIPTS/AnalysisScripts folder you can find a file Model_Training_and_Evaluation.ipynb, upload this to Google Collab.
 
+   For this assignment we connected to Google Collab's A100 GPU, which is from Collab Pro. Do not run the code yet.
+2. **Get the Data Ready**  
+    
 
 ```
