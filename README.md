@@ -45,8 +45,10 @@ Follow these steps to reproduce our results:
    Under the SCRIPTS/AnalysisScripts folder you can find a file Model_Training_and_Evaluation.ipynb, upload this to Google Collab.
 
    For this assignment we connected to Google Collab's A100 GPU, which is from Collab Pro. Do not run the code yet.
-2. **Collect & Prepare Data**  
-   - In your local IDE or terminal, run the organization script to sort raw images into breed subfolders:  
+2. **Collect & Prepare Data**   
+   - Go to the Oxford-IIIT Pet Dataset website: https://www.robots.ox.ac.uk/~vgg/data/pets/  
+     Download the “Images” archive (`images.tar.gz`) and extract its contents into the `DATA/InputData/` folder.
+   - In your local IDE or terminal, run the organization script to sort raw images into breed subfolders and extract its contents in the `DATA/AnalysisData/` folder:  
      ```bash
      python ./SCRIPTS/DataCollectionScripts/data_organization.py
      ```  
