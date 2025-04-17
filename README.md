@@ -37,6 +37,7 @@ This project was developed using the following software and tools:
 ## Section 2: A Map of your documentation
 ImageData-DS4002/  
 ├── DATA/  
+│   ├── DataAppendix  
 │   ├── InputData/  
 │   │   └── images/  
 │   └── AnalysisData/  
