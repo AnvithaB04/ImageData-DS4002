@@ -46,7 +46,14 @@ Follow these steps to reproduce our results:
    Under the SCRIPTS/AnalysisScripts folder you can find a file Model_Training_and_Evaluation.ipynb, upload this to Google Collab.
 
    For this assignment we connected to Google Collab's A100 GPU, which is from Collab Pro. Do not run the code yet.
-2. **Get the Data Ready**  
-    
-
-```
+2. **Collect & Prepare Data**  
+   - In your local IDE or terminal, run the organization script to sort raw images into breed subfolders:  
+     ```bash
+     python ./SCRIPTS/DataCollectionScripts/data_organization.py
+     ```  
+   - Next, run the preprocessing script to resize, augment, normalize, and split the images:  
+     ```bash
+     python ./SCRIPTS/DataCollectionScripts/data_preprocessing.py
+     ```
+3. 
+   
