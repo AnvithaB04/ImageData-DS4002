@@ -33,9 +33,23 @@ This project was developed using the following software and tools:
 <!-- Section 2: Project Folder Structure -->
 ## Section 2: A Map of your documentation
 ImageData-DS4002/  
-├── DATA/
-
-
+├── DATA/  
+│   ├── InputData/  
+│   │   └── images/  
+│   └── AnalysisData/  
+│       └── organized_images/  
+├── OUTPUT/  
+│   ├── Accuracy and Loss.png  
+│   └── Confusion Matrix.png  
+├── SCRIPTS/  
+│   ├── DataCollectionScripts/  
+│   │   ├── data_organization.py  
+│   │   └── data_preprocessing.py  
+│   └── AnalysisScripts/  
+│       └── Model_Training_and_Evaluation.ipynb  
+├── LICENSE  
+├── README.md  
+└── requirements.txt  
 
 <!-- Section 3: Instructions for Reproducing Results -->
 ## Section 3: Instructions for Reproducing Results
