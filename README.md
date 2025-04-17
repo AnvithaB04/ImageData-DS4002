@@ -10,8 +10,8 @@ This is a **Pet Breed Classification** project. We train a convolutional neural 
 ### Key Features:
 - **Data Organization**: Automatically sorts raw images into breed-specific folders  
 - **Data Augmentation**: Applies rotations, flips, zooms, and brightness adjustments
-- **Transfer Learning**:
-- **Evaluation**: 
+- **Transfer Learning**: Builds on a pre‑trained CNN backbone and fine‑tunes it for pet‑breed recognition
+- **Evaluation**: Reports overall accuracy and generates performance visualizations such as loss/accuracy curves and a confusion matrix
 
 <!-- Section 1: Software & Platform -->
 ## Section 1: Software & Platform
