@@ -29,15 +29,14 @@ This project was developed using the following software and tools:
   pip install -r requirements.txt
 
 
-```
-```
+
 <!-- Section 2: Project Folder Structure -->
 ## Section 2: A Map of your documentation
 ImageData-DS4002/  
 ├── DATA/
 
-```
-```
+
+
 <!-- Section 3: Instructions for Reproducing Results -->
 ## Section 3: Instructions for Reproducing Results
 Follow these steps to reproduce our results:
