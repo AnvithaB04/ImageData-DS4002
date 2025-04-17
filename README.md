@@ -55,10 +55,10 @@ ImageData-DS4002/
 ## Section 3: Instructions for Reproducing Results
 Follow these steps to reproduce our results:
 
-1. **Create the Google Collab**  
-   Under the SCRIPTS/AnalysisScripts folder you can find a file Model_Training_and_Evaluation.ipynb, upload this to Google Collab.
-
-   For this assignment we connected to Google Collab's A100 GPU, which is from Collab Pro. Do not run the code yet.
+1. **Create the Google Colab**  
+   - In `SCRIPTS/AnalysisScripts` locate `Model_Training_and_Evaluation.ipynb` and upload it to Google Colab.  
+   - Switch runtime to **GPU → A100** (Colab Pro).  
+   - **Do not run the notebook yet.**
 2. **Collect & Prepare Data**   
    - Go to the Oxford-IIIT Pet Dataset website: https://www.robots.ox.ac.uk/~vgg/data/pets/  
      Download the “Images” archive (`images.tar.gz`) and extract its contents into the `DATA/InputData/` folder.
@@ -70,5 +70,10 @@ Follow these steps to reproduce our results:
      ```bash
      python ./SCRIPTS/DataCollectionScripts/data_preprocessing.py
      ```
-3. 
+3. **Train & Evaluate the Model in Colab**  
+   - Mount Google Drive or upload the `DATA/AnalysisData/organized_images/` directory to Colab.  
+   - Run all cells in `Model_Training_and_Evaluation.ipynb`.  
+
+4. **Inspect Results**  
+   - Review training/validation performance in the output graphs.  
    
