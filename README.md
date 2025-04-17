@@ -27,7 +27,7 @@ This project was developed using the following software and tools:
   - `seaborn`  
   - `scikit-learn`  
   - `Pillow`  
-- **Platform Tested On:** macOS, Windows, Linux  
+- **Platform Tested On:** macOS, Windows  
 - **Install dependencies:**  
   ```bash
   pip install -r requirements.txt
